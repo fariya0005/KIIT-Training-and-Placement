@@ -1,0 +1,1243 @@
+/* CSS code to make the website more attractive */
+
+/* Add a background color or image */
+  body {
+   background-color: #fff;
+  }
+  
+
+.top-header{
+  float: left;
+  margin: 0;
+  background: linear-gradient(rgba(245, 241, 241, 0.902), rgba(4, 101, 85, 0.8));
+  width: 100%;
+  height: 200px;
+  
+}
+
+
+
+.head-quote {
+  background-color:transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #eb3030;
+  height: 30px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(245, 241, 241, 0.902),  rgba(10, 146, 121, 0.8), rgba(7, 224, 90, 0.8));
+  
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+}
+
+.header-menu {
+  background-color: #333;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.header {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  margin-right: 15px;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header li a:hover {
+  color: #ff5a5f;
+}
+
+
+.width-100 {
+  width: 100%;
+}
+
+.slider-width {
+  width: 100%;
+  height: 650px;
+}
+
+.margin-top-50 {
+  margin-top: 0px;
+}
+
+.width-33 {
+  width: 68%;
+}
+
+.latest-news {
+  /* Add your desired styles for the latest-news class */
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.head-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b18989;
+  text-align: center;
+}
+
+.latest-news-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-ul li {
+  margin-bottom: 0px;
+  padding: 5px;
+  background-color: #f1f1f1;
+}
+
+.latest-news-ul li:hover {
+  background-color: #9c5959;
+  color: #fff;
+}
+
+
+.heading-sect{
+  width: 100%;
+  background-color: #add2c7;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin-top-50 {
+  margin-top: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width-33 {
+  width: 67%;
+}
+
+.latest-news,
+.about {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.heading-sect {
+  margin-bottom: 10px;
+}
+.heading-section{
+  text-align: center;
+}
+.head-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.latest-news-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.latest-news-ul li {
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Style the contact section */
+h1 {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-item i {
+  margin-right: 10px;
+  color: rgb(232, 238, 240); /* Set the color of the icon */
+  
+  border: 2px solid rgb(48, 125, 156); /* Add a border around the icon */
+  border-radius: 50%; /* Make the border circular */
+  padding: 6px; /* Adjust padding as needed */
+  background-color: rgb(49, 130, 163);
+}
+
+
+.info-item span {
+  font-size: 16px;
+}
+
+
+
+
+
+/* Add hover effect to social media icons */
+.social-media-icon:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #c1d4e7,  #eff2f4);
+ 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Section Styles */
+#training-programs,
+#job-opportunities,
+#workshops {
+  margin-bottom: 40px;
+}
+
+#training-programs ul,
+#job-opportunities ul,
+#workshops ul {
+  margin-left: 20px;
+}
+
+#training-programs li:before,
+#job-opportunities li:before,
+#workshops li:before {
+  content: "▸";
+  color: #666;
+  margin-right: 5px;
+}
+
+/* Colors and Backgrounds */
+.container:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 20%, transparent 20%, transparent 80%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 100%);
+  z-index: -1;
+}
+
+#training-programs h2,
+#job-opportunities h2,
+#workshops h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#training-programs h2:before,
+#job-opportunities h2:before,
+#workshops h2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* Animated Background */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  background: linear-gradient(-45deg, #74b9ff, #0984e3, #fd79a8, #a29bfe);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+
+/* Global Styles */
+/* Add your custom styles here */
+#training-programs,
+#job-opportunities,
+#workshops {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  color: #666;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+
+
+
+#alumni {
+  background-color: #f5efef;
+  padding: 50px 0;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.additional-content {
+  text-align: center;
+  margin: 20 auto;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additional-content h2,
+.additional-content p {
+  margin: 20px 0;
+}
+
+.additional-content .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.story {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.story img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.story:hover img {
+  transform: scale(1.05);
+}
+
+.story-info {
+  margin-top: 20px;
+}
+
+.story-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.story-info span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.story-info p {
+  margin: 0;
+  color: #555;
+}
+.career-guidance {
+  margin: 30px 0;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.career-guidance h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.career-guidance p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.career-guidance ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.career-guidance li {
+  margin-bottom: 15px;
+}
+
+.career-guidance li:before {
+  content: "\2022";
+  color: #999;
+  display: inline-block;
+  width: 12px;
+  margin-right: 10px;
+}
+
+.career-guidance ul li:last-child {
+  margin-bottom: 0;
+}
+
+.career-guidance .highlight {
+  font-weight: bold;
+  color: #e63946;
+}
+
+/* Additional Classy Styling */
+
+.career-guidance {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.career-guidance h2 {
+  text-align: center;
+}
+
+.career-guidance p {
+  text-align: center;
+}
+
+.career-guidance ul {
+  text-align: center;
+}
+
+.career-guidance li:before {
+  font-size: 14px;
+}
+
+
+.gallery {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+
+.gallery h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.expanded-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  cursor: zoom-out;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-expanded {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: auto;
+}
+.gallery-expanded::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(245, 241, 241, 0.902), rgba(4, 101, 41, 0.8));
+  z-index: -1;
+}
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+/* Other CSS styles for the website */
+
+
+
+
+
+
+
+.link-section ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: linear-gradient(-45deg, #a1c3e6, #c4dcf0, #f3ecef, #a29bfe)
+}
+
+
+.link-section a {
+  color: #6f9dcd;
+  text-decoration: none;
+  background-color: linear-gradient(-45deg, #093057, #c4dcf0, #f3ecef, #a29bfe)
+}
+
+.link-section a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.container2 {
+  display: flex;
+  background-color: linear-gradient(-45deg, #04172b, #c4dcf0, #f3ecef, #a29bfe)
+}
+
+.link-section {
+  flex-grow: 1;
+  background-color: rgb(251, 248, 248);
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  background-color: linear-gradient(-45deg, #104478, #c4dcf0, #f3ecef, #a29bfe)
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin-top-50 {
+  margin-top: 0px;
+}
+
+.container5 {
+  text-align: center;
+}
+
+.recruiter-head-style {
+  /* Add your h3 styles here */
+  color: #333;
+  font-size: 24px;
+  /* Remove the "text-align" property */
+}
+
+.recruiter-marquee {
+  /* Add your marquee styles here */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.recruiter-marquee img {
+  margin-right: 10px;
+}
+
+
+
+#entrepreneurship {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#entrepreneurship h2 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#entrepreneurship p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#entrepreneurship ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#entrepreneurship li {
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#entrepreneurship li:hover {
+  transform: translateY(-5px);
+}
+
+#entrepreneurship li span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+#entrepreneurship li p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#entrepreneurship .join-button {
+  margin-top: 30px;
+}
+
+#entrepreneurship .join-button a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#entrepreneurship .join-button a:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+#parent-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#parent-reviews h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.review:last-child {
+  margin-right: 0;
+}
+
+.review {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.review h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.review h4 {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.review p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+
+.review button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review button:hover {
+  background-color: #063e06;
+}
+
+#stay-connected {
+  text-align: center;
+}
+
+#stay-connected h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #2b5394;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+.social-links i {
+  margin-right: 5px;
+}
+
+
+#feedback {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+#feedback h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#feedback p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#registration-form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="number"],
+#registration-form input[type="email"],
+#registration-form input[type="tel"],
+#registration-form select,
+#registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+#registration-form textarea {
+  resize: vertical;
+}
+
+#registration-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#registration-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#registration-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+  background: transparent;
+  background-image: url("down-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#registration-form select::-ms-expand {
+  display: none;
+}
+
+#registration-form textarea {
+  padding: 10px;
+}
+
+#registration-form input[type="file"] {
+  display: none;
+}
+
+#registration-form label[for="resume"] {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#registration-form label[for="resume"]:hover {
+  background-color: #e1e1e1;
+}
+
+/* Additional Styling for Visual Appeal */
+
+#feedback {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="number"],
+#registration-form input[type="email"],
+#registration-form input[type="tel"],
+#registration-form select,
+#registration-form textarea {
+  background-color: #f8f8f8;
+}
+
+#registration-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#registration-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#registration-form label {
+  font-weight: bold;
+}
+
+#registration-form textarea {
+  resize: none;
+}
+
+#registration-form select {
+  padding: 10px 25px 10px 10px;
+  background-image: url("down-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+}
+
+#registration-form input[type="file"] {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.alert-message {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+/* Add appropriate styles to the footer */
+
+footer {
+  background-color: #fcf5f5;
+  padding: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* Adjust the styles for the icons (Font Awesome) */
+
+footer a i {
+  margin-right: 5px;
+}
+
+/* Larger Desktop Screens */
+@media screen and (min-width: 1200px) {
+  /* Styles for larger desktop screens */
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  /* Example: Adjust the layout for smaller screens */
+  .container {
+    display: block;
+  }
+
+  /* Example: Hide or modify certain elements for smaller screens */
+  .desktop-only {
+    display: none;
+  }
+
+  /* Example: Stack navigation links vertically for mobile devices */
+  .header-menu {
+    flex-direction: column;
+  }
+
+  /* Example: Center align logo on mobile devices */
+  .logo {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for tablets and desktops */
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  /* Example: Adjust the layout for larger screens */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Example: Show hidden elements on tablets and desktops */
+  .desktop-only {
+    display: block;
+  }
+
+  /* Example: Horizontal navigation for tablets and desktops */
+  .header-menu {
+    flex-direction: row;
+  }
+
+  /* Example: Left align logo on tablets and desktops */
+  .logo {
+    text-align: left;
+  }
+}
+
+
+/* Additional Footer Links Styles */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease; /* Add transition effect for hover */
+}
+
+.footer-links a:hover {
+  color: #FF5733; /* Change text color on hover */
+  font-family: Arial, sans-serif;
+}
+
+/* Example: Privacy Policy */
+.privacy-policy a {
+  color: #555; /* Change color if needed */
+  font-family: Arial, sans-serif;
+}
+
+.privacy-policy a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  font-family: Arial, sans-serif;
+}
+
+/* Example: Terms of Service */
+.terms-of-service a {
+  color: #555; /* Change color if needed */
+  font-family: Arial, sans-serif;
+}
+
+.terms-of-service a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  font-family: Arial, sans-serif;
+}
+
+/* Example: FAQs */
+.faqs a {
+  color: #555; /* Change color if needed */
+  font-family: Arial, sans-serif;
+}
+
+.faqs a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  font-family: Arial, sans-serif;
+}
+
+/* Adjust the styles for the icons (Font Awesome) */
+.footer a i {
+  margin-right: 5px;
+  font-family: Arial, sans-serif;
+}
+
